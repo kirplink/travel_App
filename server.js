@@ -45,5 +45,5 @@ if (process.env.NODE_ENV === "production") {
 
 // Start the API server
 app.listen(PORT, function() {
-	console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
+	console.log(`Server started at http://localhost:${port}`);
 });
